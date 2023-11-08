@@ -1,0 +1,62 @@
+{
+  "consumer": {
+    "name": "Consumer_Chase"
+  },
+  "interactions": [
+    {
+      "description": "A Post request to find the Status of the policy",
+      "providerStates": [
+        {
+          "name": "an Policy Reference exists"
+        }
+      ],
+      "request": {
+        "body": {
+          "Insured": [
+            {
+              "BankAccount": {
+                "AccountNumber": "1213121",
+                "SortCode": "202020"
+              },
+              "DateOfBirth": "20-08-1987",
+              "Email": "test@test.com",
+              "FirstName": "John",
+              "HomeAddress": {
+                "AddressLine1": "eretw",
+                "AddressLine2": "erwerewrew",
+                "City": "aadsas",
+                "CountryCode": "GB",
+                "PostCode": "qw2qw"
+              },
+              "IsPolicyHolder": true,
+              "LastName": "Dpes",
+              "Phone": "12345678"
+            }
+          ],
+          "PolicyReference": "CH0123817795",
+          "StartDate": "2023-09-15"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "method": "POST",
+        "path": "/v1/policy"
+      },
+      "response": {
+        "status": 201
+      }
+    }
+  ],
+  "metadata": {
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "Provider_Collinson"
+  }
+}

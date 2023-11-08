@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Srinivasa.Jataprolu1\\source\\repos\\CollinsonConsumerTests\\CollinsonConsumerTests\\CollinsonConsumerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Srinivasa.Jataprolu1\\source\\repos\\CollinsonConsumerTests\\CollinsonConsumerTests\\CollinsonConsumerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Srinivasa.Jataprolu1\\source\\repos\\CollinsonConsumerTests\\CollinsonConsumerTests\\CollinsonConsumerTests.csproj",
+        "projectName": "CollinsonConsumerTests",
+        "projectPath": "C:\\Users\\Srinivasa.Jataprolu1\\source\\repos\\CollinsonConsumerTests\\CollinsonConsumerTests\\CollinsonConsumerTests.csproj",
+        "packagesPath": "C:\\Users\\Srinivasa.Jataprolu1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Srinivasa.Jataprolu1\\source\\repos\\CollinsonConsumerTests\\CollinsonConsumerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Srinivasa.Jataprolu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://52.212.106.125/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "PactNet": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "PactNet.Output.Xunit": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
